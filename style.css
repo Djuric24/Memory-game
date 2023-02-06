@@ -4,3 +4,6 @@
     display: flex;
     flex-wrap: wrap;
 }
+body {
+    margin: 10px 35%;
+}
