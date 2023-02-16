@@ -98,6 +98,10 @@ function checkMatch() {
 
     if (cardsWon.length == cardArray.length/2) {
         resultDisplay.textContent = 'Congratulations you found them all!'
+        setTimeout(() => {
+            resultDisplay.textContent = 'Starting new game in 2 sec'}, 3000);
+        setTimeout(()=> {
+            location.reload()}, 5000);
     }
 
 }
